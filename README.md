@@ -57,39 +57,40 @@ Cada usuario inicia sesión de forma segura, recibe un número limitado de pregu
 
 ## 📂 Estructura del proyecto
 
+text
 QodeBoss/
 ├── backend/
-│ ├── server.py
-│ └── src/
-│ ├── app.py
-│ ├── ai_generator.py
-│ ├── routes/
-│ │ ├── challenge.py
-│ │ └── webhooks.py
-│ ├── database/
-│ │ ├── models.py
-│ │ └── db.py
-│ └── utils/
-│ └── ... (helpers varios)
+│   ├── server.py
+│   └── src/
+│       ├── app.py
+│       ├── ai_generator.py
+│       ├── routes/
+│       │   ├── challenge.py
+│       │   └── webhooks.py
+│       ├── database/
+│       │   ├── models.py
+│       │   └── db.py
+│       └── utils/
+│           └── ... (helpers varios)
 └── frontend/
-├── index.html
-├── vite.config.js
-└── src/
-├── App.jsx
-├── App.css
-├── layout/
-│ ├── Layout.jsx
-│ └── Layout.css
-├── challenge/
-│ ├── ChallengeGenerator.jsx
-│ ├── MCQChallenge.jsx
-│ ├── ChallengeGenerator.css
-│ └── MCQChallenge.css
-├── history/
-│ └── HistoryPanel.jsx
-└── auth/
-├── ClerkProviderWithRoutes.jsx
-└── AuthenticationPage.jsx
+    ├── index.html
+    ├── vite.config.js
+    └── src/
+        ├── App.jsx
+        ├── App.css
+        ├── layout/
+        │   ├── Layout.jsx
+        │   └── Layout.css
+        ├── challenge/
+        │   ├── ChallengeGenerator.jsx
+        │   ├── MCQChallenge.jsx
+        │   ├── ChallengeGenerator.css
+        │   └── MCQChallenge.css
+        ├── history/
+        │   └── HistoryPanel.jsx
+        └── auth/
+            ├── ClerkProviderWithRoutes.jsx
+            └── AuthenticationPage.jsx
 
 ---
 

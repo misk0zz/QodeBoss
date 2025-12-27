@@ -57,7 +57,7 @@ Cada usuario inicia sesión de forma segura, recibe un número limitado de pregu
 
 ## 📂 Estructura del proyecto
 
-text
+```text
 QodeBoss/
 ├── backend/
 │   ├── server.py
@@ -91,7 +91,7 @@ QodeBoss/
         └── auth/
             ├── ClerkProviderWithRoutes.jsx
             └── AuthenticationPage.jsx
-
+```
 ---
 
 ## ⚙️ Requisitos previos

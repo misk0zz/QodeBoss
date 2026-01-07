@@ -234,3 +234,9 @@ git checkout -b feature/nueva-funcionalidad
 3. Haz commit y push de tus cambios.
 4. Abre un Pull Request describiendo qué has añadido o mejorado.
 
+---
+
+<div align="center">
+Hecho con ❤️ y código limpio por <a href="https://github.com/israzurdev">Israel Zurita</a>
+</div>
+

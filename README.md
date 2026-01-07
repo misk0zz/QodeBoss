@@ -108,9 +108,10 @@ QodeBoss/
 
 ### 1. Clonar el repositorio
 
+```bash
 git clone https://github.com/misk0zz/QodeBoss.git
 cd QodeBoss
-
+```
 
 
 ---
@@ -119,15 +120,17 @@ cd QodeBoss
 
 1. Ir a la carpeta `backend`:
 
+```bash
 cd backend
-
+```
 text
 
 2. Crear entorno con `uv` y sincronizar dependencias (si usas uv):
 
+```bash
 pip install uv
 uv sync
-
+```
 
 
 > Si prefieres `pip`, instala las dependencias que estén en `pyproject.toml` / `requirements.txt`.
@@ -141,8 +144,9 @@ CLERK_SECRET_KEY=tu_clave_secreta_de_clerk
 
 4. Lanzar el servidor:
 
+```bash
 python -m uv run .\server.py
-
+```
 
 
 El backend arrancará en `http://localhost:8000`.
@@ -153,14 +157,16 @@ El backend arrancará en `http://localhost:8000`.
 
 1. Abrir otra terminal y moverse a `frontend`:
 
+```bash
 cd ../frontend
-
+```
 
 
 2. Instalar dependencias:
 
+```bash
 npm install
-
+```
 
 
 3. Crear archivo `.env` en `frontend` (si se usa Vite con variables de Clerk):
@@ -173,7 +179,7 @@ VITE_API_BASE_URL=http://localhost:8000/api
 4. Arrancar el dev server:
 
 npm run dev
-
+```
 
 
 Vite te mostrará una URL como `http://localhost:5173/`.
